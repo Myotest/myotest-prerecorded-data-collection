@@ -2,8 +2,11 @@
   "name": "myotest-prerecorded-data-collection",
   "version": "0.2.0",
   "description": "the parent module of a set of data-modules which contain preregistered accelerometer samples to test activity algorithms",
-  "keywords": [],
-  "author": "nimmyo",
+  "keywords": [
+    "Myotest",
+    "myotest"
+    ],
+  "author": "Nicolas Marty <nim@myotest.com>",
   "license": "Apache-2.0",
   "dependencies": {}
 }
