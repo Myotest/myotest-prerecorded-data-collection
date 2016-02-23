@@ -1,12 +1,26 @@
 {
   "name": "myotest-prerecorded-data-collection",
-  "version": "0.2.0",
-  "description": "the parent module of a set of data-modules which contain preregistered accelerometer samples to test activity algorithms",
+  "version": "1.0.0",
+  "description": "Umbrella module for a set of data-modules which contain pre-recorded, raw, 3 axes, accelerometer signals to test the Myotest Step Analysis library",
   "keywords": [
     "Myotest",
-    "myotest"
+    "myotest",
+    "library",
+    "step analysis",
+    "step counter",
+    "walk",
+    "run",
+    "prerecorded data",
+    "data collection"
     ],
-  "author": "Nicolas Marty <nim@myotest.com>",
+  "author": "Myotest R&D Team",
+  "repository": {
+    "url": "git@github.com:Myotest/myotest-prerecorded-data-collection",
+    "type": "git"
+  },
   "license": "Apache-2.0",
-  "dependencies": {}
+  "dependencies": {
+    "myotest-step-analysis-data-set-1": "^1.0.0",
+    "myotest-step-analysis-data-set-2": "^1.0.0"
+  }
 }
