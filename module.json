@@ -1,6 +1,6 @@
 {
   "name": "myotest-prerecorded-data-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Umbrella module for a set of data-modules which contain pre-recorded, raw, 3 axes, accelerometer signals to test the Myotest Step Analysis library",
   "keywords": [
     "Myotest",
@@ -18,6 +18,7 @@
     "url": "git@github.com:Myotest/myotest-prerecorded-data-collection",
     "type": "git"
   },
+  "homepage": "https://github.com/Myotest/myotest-prerecorded-data-collection",
   "license": "Apache-2.0",
   "dependencies": {
     "myotest-step-analysis-data-set-1": "^1.0.0",
